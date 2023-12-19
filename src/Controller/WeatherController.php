@@ -2,9 +2,11 @@
 
 namespace App\Controller;
 
+use App\Entity\Location;
 use App\Entity\Weather;
 use App\Form\WeatherType;
 use App\Repository\WeatherRepository;
+use App\Service\WeatherUtil;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
